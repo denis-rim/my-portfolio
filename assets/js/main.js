@@ -1,23 +1,39 @@
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+/*==================== MENU SHOW Y HIDDEN ====================*/
 
 
-/*=============== SERVICES MODAL ===============*/
+/*===== MENU SHOW =====*/
+/* Validate if constant exists */
 
 
-/*=============== MIXITUP FILTER PORTFOLIO ===============*/
+/*===== MENU HIDDEN =====*/
+/* Validate if constant exists */
 
 
-/* Link active work */ 
+/*==================== REMOVE MENU MOBILE ====================*/
 
 
-/*=============== SWIPER TESTIMONIAL ===============*/
+/*==================== ACCORDION SKILLS ====================*/
 
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+/*==================== QUALIFICATION TABS ====================*/
 
 
-/*=============== LIGHT DARK THEME ===============*/ 
+/*==================== SERVICES MODAL ====================*/
 
 
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+/*==================== PORTFOLIO SWIPER  ====================*/
 
+
+/*==================== TESTIMONIAL ====================*/
+
+
+/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
+
+/*==================== CHANGE BACKGROUND HEADER ====================*/ 
+
+
+/*==================== SHOW SCROLL UP ====================*/ 
+
+
+/*==================== DARK LIGHT THEME ====================*/ 
