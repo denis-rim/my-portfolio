@@ -123,16 +123,10 @@ const sections = document.querySelectorAll('section[id]');
 function scrollActive() {
   const scrollY = window.pageYOffset;
 
-  console.log('ScrollY: ', scrollY);
-
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
     const sectionId = current.getAttribute('id');
-
-    console.log('Section height: ', sectionHeight);
-    console.log('Section top: ', sectionTop);
-    console.log('Section id: ', sectionId);
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
@@ -159,7 +153,6 @@ window.addEventListener('scroll', scrollHeader);
 /*==================== SHOW SCROLL UP ====================*/
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up');
-  console.log(scrollUp);
   // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
   if (this.scrollY >= 460) scrollUp.classList.add('show-scroll');
   else scrollUp.classList.remove('show-scroll');
